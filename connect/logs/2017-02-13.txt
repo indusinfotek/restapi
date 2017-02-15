@@ -1,0 +1,3 @@
+Time : 12:36:09
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhartiya_dbRestAPI.users' doesn't exist
+Raw SQL : SELECT * FROM users WHERE id = :id

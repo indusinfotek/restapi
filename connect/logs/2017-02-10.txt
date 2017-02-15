@@ -1,0 +1,47 @@
+Time : 17:36:59
+IP : 223.179.151.213
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM persons WHERE firstname = :f AND age = :a
+
+Time : 17:35:00
+IP : 223.179.151.213
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM persons WHERE firstname = :f AND age = :a
+
+Time : 17:34:58
+IP : 223.179.151.213
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM persons WHERE firstname = :f AND age = :a
+
+Time : 17:33:23
+IP : 223.179.151.213
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM persons WHERE firstname = :firstname
+
+Time : 17:29:44
+IP : 223.179.151.213
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhartiya_dbRestAPI.Persons' doesn't exist
+Raw SQL : SELECT * FROM Persons
+
+Time : 15:34:19
+SQLSTATE[HY000] [1045] Access denied for user 'bhartiya_apiuser'@'localhost' (using password: YES)
+IP : 223.179.151.213
+
+Time : 15:33:00
+SQLSTATE[HY000] [1045] Access denied for user 'bhartiya_apiuser'@'localhost' (using password: YES)
+IP : Time : 15:17:40
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhartiya_dbRestAPI.Persons' doesn't exist
+Raw SQL : SELECT * FROM Persons WHERE firstname = :firstname AND age = :age
+
+Time : 15:16:17
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bhartiya_dbRestAPI.persons' doesn't exist
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 15:15:49
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 15:15:36
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 15:06:43
+SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
